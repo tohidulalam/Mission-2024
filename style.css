@@ -3,6 +3,7 @@ body{
 }
 #focus{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .focus-1 {
@@ -23,9 +24,12 @@ body{
 h1{
     font-size: 70px;
     margin: 0;
+    padding: 0 px;
 }
 p{
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 a{
     text-decoration: none;
@@ -50,4 +54,58 @@ a{
     padding: 10px 30px;
     border-radius: 5px;
     
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.mission-section{
+    display: flex;
+    margin: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.mission{
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    text-align: justify;
+    background-color: #F8F5E5;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.vision{
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    text-align: justify;
+    background-color: #FFEEDE;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.goals{
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    text-align: justify;
+    background-color: #FFF7C7;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#year{
+    color: goldenrod;
 }
