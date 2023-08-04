@@ -41,3 +41,13 @@ a{
 #mission{
     color: goldenrod;
 }
+
+.button{
+    color: white;
+    font-size: 50 px;
+    background-color: tomato;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    
+}
